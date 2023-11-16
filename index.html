@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Character Cards</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="input-container">
+			<input type="text" id="characterInput" placeholder="Enter characters">
+			<button id="addCharacter">Add Character</button>
+		</div>
+		<div class="character-grid" id="characterGrid"></div>
+
+
+		<div id="colorPickerModal" class="modal">
+			<div class="modal-content">
+				<h2>Select Left Border Color</h2>
+				<input type="color" id="colorPicker" value="#670d08">
+				<button id="applyColor">Apply Color</button>
+			</div>
+		</div>
+		<button id="exportButton">Export List</button>
+
+	</body>
+	<script src="script.js"></script>
+</html>
